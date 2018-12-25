@@ -122,9 +122,9 @@
                           <th>
                             Status
                           </th>
-                          <th>
+                          <!-- <th>
                             Action
-                          </th>
+                          </th> -->
                         </tr>
                       </thead>
                       <tbody>
@@ -157,7 +157,7 @@
                             <label class="badge badge-success">Kembali</label>
                           @endif
                           </td>
-                          <td>
+                          <!-- <td>
                           <form action="{{ route('transaksi.update', $data->id) }}" method="post" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             {{ method_field('put') }}
@@ -165,7 +165,7 @@
                             </button>
                           </form>
                           
-                          </td>
+                          </td> -->
                         </tr>
                       @endforeach
                       </tbody>
